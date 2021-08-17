@@ -1,14 +1,15 @@
 import os
+import time
 from pytube import YouTube
 
 print("-----YOUTUBE DOWNLOAD-----")
+#diretorio pode ser alterado conforme a necessidade, atentar para as barras
 dir1 = 'D:\Youtube download\musicas'
 
 link = input("Link do Vídeo: ")
 yt = YouTube(link)
 
 print("\nDetalhes do Vídeo")
-# mostrar detalhes do vídeo
 print("Título: ", yt.title)
 print("Tempo do vídeo: ", round((yt.length // 60) + (yt.length / 60 % 1 * 60 / 100), 2), " minutos")
 
@@ -28,8 +29,10 @@ op = int(input("1 - Vídeo\n2 - Áudio\n"))
 if op == 1:
     print("Baixando...")
     ys.download(dir1)
-else:
+elif op == 2:
     ys = yt.streams.get_audio_only()
     ys.download(dir1)
-
-print("Download completo!")
+    print("Download completo!")
+else:
+    print("OPÇÃO INVÁLIDA, PROGRAMA FECHANDO...")
+    time.sleep(3)
