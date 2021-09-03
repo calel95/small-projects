@@ -1,3 +1,3 @@
 # small-projects
 
-Mini-projetos desenvolvidos para crescimento de experiência 
+Mini-projetos desenvolvidos para crescimento e experiência 
