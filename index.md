@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub
+
+Hi, my name is Calel, i living in Brazil and i love the tecnology. I am working like data engineer currently and i like a lot this. i'm almost formed in data science at university and i want do a specialisation in data enginner. i like a lot the programming, i learn a lot on internet doing courses and wathing the youtube. Languages that i already little bit know: Python, Java, C, and Scala. I know also little bit SQL, Excel, AWS and Spark. I am currenty perfecting my knowledged and searching new things alway, i really want to be excellent at what i do.
 
 You can use the [editor on GitHub](https://github.com/calel95/small-projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+
+My repository with somes small projects [Repository](https://github.com/calel95/small-projects)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
